@@ -1,5 +1,17 @@
 # XivTech Kubernetes DevOps Assignment
 
+## Prerequisites
+
+Before starting, please ensure the following software are installed on your system:
+
+- **Docker Desktop** (for building and running containers)
+- **Kind** (for creating a local Kubernetes cluster inside Docker)
+- **kubectl** (for managing Kubernetes cluster and deployments)
+- **Visual Studio Code** (optional, for editing files easily)
+
+Make sure Docker and Kubernetes are working properly before proceeding.
+
+
 ## Project Overview
 In this project, we deploy a simple web application on a local Kubernetes cluster using Kind (Kubernetes IN Docker). The application is a basic HTML page served via an NGINX container.
 
