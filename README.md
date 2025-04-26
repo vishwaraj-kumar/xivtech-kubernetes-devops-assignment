@@ -25,12 +25,12 @@ In this project, we deploy a simple web application on a local Kubernetes cluste
   - `k8s/` containing `deployment.yaml` or `service.yaml`
 
 ### 2. Application Files
-- **index.html** (inside app folder):
+- **index.html** (inside app folder): [index.html](app/index.html)
 ```html
 <h1>Hello, World from Kubernetes!</h1>
 ```
 
-- **Dockerfile** (inside docker folder):
+- **Dockerfile** (inside docker folder): [Dockerfile](docker/Dockerfile)
 ```Dockerfile
 FROM nginx:alpine
 COPY app/index.html /usr/share/nginx/html/index.html
