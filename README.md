@@ -1,6 +1,6 @@
 # XivTech Kubernetes DevOps Assignment
 
-## Prerequisites
+## 📌 Prerequisites
 
 Before starting, please ensure the following software are installed on your system:
 
